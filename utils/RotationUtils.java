@@ -1,6 +1,7 @@
+packege virtue.skid.best.client.utils.rotation;
+
 public class RotationUtils extends MinecraftInstance {
 
-  
     /**
      * Returns the actual value of the GCD 
      * (taking into account the sensitivity of the mouse and 

@@ -1,6 +1,14 @@
 package virtue.skid.best.client.utils.rotation;
 
 public class RotationUtils extends MinecraftInstance {
+    
+    /**
+     *
+     *
+     */
+    public static float getFixedRotation(float rot) {
+        return getDeltaMouse(rot) * getGCDValue();
+    }
 
     /**
      * Returns the actual value of the GCD 

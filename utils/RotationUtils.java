@@ -9,6 +9,7 @@ public class RotationUtils extends MinecraftInstance {
      * @see net.minecraft.entity.Entity
      *      Method: setAngles
      * 
+     * @author koloslolya
      * @return (float) GCD Factor
      */
     public static float getGCDValue() {

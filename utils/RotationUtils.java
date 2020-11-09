@@ -1,4 +1,4 @@
-packege virtue.skid.best.client.utils.rotation;
+package virtue.skid.best.client.utils.rotation;
 
 public class RotationUtils extends MinecraftInstance {
 

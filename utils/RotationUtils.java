@@ -2,9 +2,10 @@ package virtue.skid.best.client.utils.rotation;
 
 public class RotationUtils extends MinecraftInstance {
     
-    /**
-     *
-     *
+    /** Final method for getting sexual rotations
+     * 
+     * @return fixed rotation (float)
+     * @author koloslolya
      */
     public static float getFixedRotation(float rot) {
         return getDeltaMouse(rot) * getGCDValue();
